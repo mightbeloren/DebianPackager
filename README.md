@@ -1,7 +1,7 @@
 
 # DebianPackager
 
-A CLI tool for creating Debian packages.
+A simple CLI tool that automates building Debian packages by handling package setup, file mappings, and build commands.
 
 ## Commands
 
