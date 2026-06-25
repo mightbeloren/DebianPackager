@@ -141,13 +141,5 @@ class Program
         root.Subcommands.Add(buildCommand);
         ParseResult result = root.Parse(args);
         result.Invoke();
-        if (result.Errors.Count == 0)
-        {
-            //here we will actually run the commands
-        }
-        foreach (ParseError error in result.Errors)
-        {
-            Console.WriteLine(error.Message);
-        }
     }
 }
