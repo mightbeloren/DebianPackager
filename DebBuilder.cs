@@ -5,7 +5,7 @@ public class DebBuilder
 {
     private const string DEB_BUILER_FOLDER_PATH = "DebBuilder";
     private static readonly string DebBuilderCompletePath = Path.Combine(
-        AppDomain.CurrentDomain.BaseDirectory,
+        Directory.GetCurrentDirectory(),
         DEB_BUILER_FOLDER_PATH
     );
     private static readonly string DebBuilderJsonFilePath = Path.Combine(
