@@ -4,7 +4,7 @@ namespace DebianPackager;
 
 public class DebBuilderConfig
 {
-    public Control Control { get; set; }
+    public Control Control { get; set; } = null!;
     public Dictionary<string, string> Files { get; set; } = new();
     public Dictionary<string, string> Scripts { get; set; } = new();
     public List<string> PreBuildCommands { get; set; } = new();
